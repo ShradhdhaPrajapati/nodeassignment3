@@ -1,0 +1,43 @@
+QUE:- 1   What is MongoDB. 
+ANS:-> 
+MongoDB is a popular open-source, document-oriented NoSQL database program. It is designed for scalability, flexibility, and performance. MongoDB stores data in flexible, JSON-like documents, meaning fields can vary from document to document and data structure can be changed over time without disrupting your application.
+
+Key features of MongoDB include:
+
+Document-Oriented: MongoDB stores data in flexible, JSON-like documents, making it easy to work with and highly scalable.
+Schemaless: Unlike traditional relational databases, MongoDB doesn't require a predefined schema. This flexibility allows for easier and faster development, especially in agile environments where requirements may change frequently.
+High Performance: MongoDB is designed for high performance, supporting features like indexing, sharding, and replication to ensure efficient data access and distribution.
+Horizontal Scalability: MongoDB can scale horizontally across multiple servers, allowing for increased capacity and throughput as your application grows.
+Rich Query Language: MongoDB provides a powerful and expressive query language that supports a wide range of operations, including CRUD (Create, Read, Update, Delete), aggregation, text search, and geospatial queries.
+Aggregation Framework: MongoDB includes a flexible aggregation framework that allows you to perform complex data transformations and analysis directly within the database.
+Replication and High Availability: MongoDB supports automatic failover and data redundancy through replica sets, ensuring high availability and data durability.
+Community and Enterprise Editions: MongoDB is available in both a free, open-source Community Edition and a paid Enterprise Edition that includes additional features and support options.
+Overall, MongoDB is well-suited for a variety of use cases, including web applications, mobile apps, content management systems, real-time analytics, and more, where flexibility, scalability, and performance are critical requirements.
+
+
+
+QUE :- 2  What is difference between mongo DB and SQL
+ANS:-> 
+MongoDB and SQL (Structured Query Language) are two different types of database management systems, each with its own strengths and weaknesses. Here are some key differences between MongoDB and SQL:
+
+1.Data Model:
+MongoDB: MongoDB is a document-oriented database, meaning it stores data in flexible, JSON-like documents. These documents can have varying structures, making MongoDB well-suited for storing unstructured or semi-structured data.
+SQL: SQL databases, also known as relational databases, store data in tables with predefined schemas. Each table consists of rows and columns, and relationships between tables are established using foreign keys.
+2.Schema:
+MongoDB: MongoDB is schema-less, meaning it does not require a predefined schema. Documents within a collection can have different structures, and fields can be added or removed dynamically.
+3.SQL: SQL databases require a predefined schema, where the structure of each table and the data types of each column must be specified in advance.
+4.Query Language:
+MongoDB: MongoDB uses a rich query language that is based on JSON-like documents. Queries are performed using methods like find() and aggregate().
+SQL: SQL databases use the SQL language for querying data. SQL provides a standardized syntax for querying, updating, and manipulating relational data.
+5.Scaling:
+MongoDB: MongoDB is designed for horizontal scalability, allowing it to scale out across multiple servers. It supports sharding, which involves partitioning data across multiple servers to distribute the load and improve performance.
+6.SQL: Traditional SQL databases typically scale vertically by adding more resources (CPU, RAM, etc.) to a single server. While some SQL databases support sharding and replication for scaling out, it may not be as native or straightforward as in MongoDB.
+Transactions:
+7.MongoDB: MongoDB supports multi-document transactions in replica sets starting from version 4.0, and in sharded clusters starting from version 4.2.
+SQL: SQL databases have traditionally supported ACID (Atomicity, Consistency, Isolation, Durability) transactions, allowing for complex operations involving multiple tables to be executed as a single unit of work.
+Use Cases:
+8.MongoDB: MongoDB is well-suited for use cases requiring flexibility, scalability, and performance with semi-structured or unstructured data, such as content management systems, real-time analytics, and mobile apps.
+9.SQL: SQL databases are widely used in applications that require strict consistency, complex transactions, and relational data modeling, such as financial systems, inventory management, and enterprise applications.
+In summary, MongoDB and SQL databases offer different approaches to data storage and management, and the choice between them depends on the specific requirements of your application, including data structure, scalability needs, and transactional consistency.
+
+
